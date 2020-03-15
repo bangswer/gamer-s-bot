@@ -1,4 +1,5 @@
 import discord
+import os
 
 
 client = discord.Client()
@@ -152,5 +153,5 @@ async def on_ready():
 
 
 
-
-client.run("Njg0MjY3MDk0NzQ0ODkxNDU3.Xl3n8Q.Pqz-w8cwJndxZaxd9GwrnA2RbsI")
+access_token = os.environ["BOT_TOKKEN"]
+client.run("access_tokken")
